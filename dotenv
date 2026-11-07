@@ -1,0 +1,12 @@
+
+# Application configuration
+APP_NAME=AI Trading Agent
+APP_ENV=development
+DEBUG=true
+
+# API configuration
+HOST=127.0.0.1
+PORT=8000
+
+# Model configuration
+MODEL_PATH=models/trading_model.pkl

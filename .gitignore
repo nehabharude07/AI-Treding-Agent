@@ -1,7 +1,8 @@
-@"
+@'
 .env
 .venv/
 venv/
+env/
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -9,4 +10,4 @@ __pycache__/
 .idea/
 .vscode/
 *.log
-"@ | Set-Content .gitignore
+'@ | Set-Content -Encoding utf8 .gitignore
